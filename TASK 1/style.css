@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Ephesis";
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0,0,0,0.6);
+}
+.head{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+.navbar .nav-item .nav-link:hover{
+    color:turquoise;
+}
+.heading-content{
+    position:absolute;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 3em;
+    color:turquoise;
+}
+
+.img-fluid{
+    padding-left: 10%;
+}
+.container-photo{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.heading-about{
+    padding: 7%;
+}
+.horizontal{
+    size: 5px;
+}
+.row{
+    padding-top: 5% ;
+}
+.about-text{
+    color: White;
+    padding-left: 10%;
+    /* padding:; */
+
+}
+.row-about{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+}
+.details{
+    padding-left: 10%;
+    
+    background-color: #f4f5f8;
+}
+.fg-theme{
+    padding-bottom: 10%;
+}
+.about-para{
+    font-size: 20px;
+    font-family: 'Pacifico';
+    font-weight: 300;
+    padding-left: 10%;
+
+}
+.about-start{
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: grey;
+    border-color: black;
+    border-radius: 10px;
+    
+    
+}
+.vg-page{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.details{
+    padding-bottom: 3% ;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.heading-edu{
+    padding-bottom:1%;
+    background-color: rgb(199, 194, 194);
+    padding-left: 1%;
+    border-radius: 25px;
+    text-align: center;
+    width:400px;
+}
+.heading-edu1{
+    padding-bottom:1%;
+    background-color: rgb(199, 194, 194);
+    padding-left: 1%;
+    border-radius: 25px;
+    width:120px;
+}
+.title{
+    padding: 6px 20px;
+
+    border-radius: 10px 0 10px 10px;
+    background-color: dimgray;
+    width: 100%;
+    color:gold
+}
+.page-home {  
+    padding: 25px 0;
+    width: 100%;
+    height: 700px;
+    z-index: 99;
+    padding-top: 8px;
+    padding-bottom: 0px;
+  }
+  .caption-header{
+      
+      display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 10;
+  background-color: rgba(104, 102, 102, 0.8);
+  }
+  .caption{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+    background-color: rgba(104, 102, 102, 0.8);
+  }
+  .name-text{
+      color: red;
+  }
+  .badge{
+    /* margin-bottom: 8px;
+    padding: 10px 30px;*/
+    background-color: rgba(207, 21, 21, 0.15);
+    /* color: #970808;
+    font-size: 16px;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 100%; */ 
+    display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .badge-contact{
+    margin-bottom: 8px;
+    padding: 10px 30px;
+    background-color: rgba(207, 21, 21, 0.15);
+    color: #a70202;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 40px;
+    font-weight: 600;
+  }
+  .skills{
+      padding-top: 3%;
+      padding-left: 6%;
+      padding-right: 5%;
+  }
+  .service{
+      padding-top:7%;
+  }
+  .prog{
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 5%;
+      font-size: 20px;
+  }
+  .prog1{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .caption{
+      padding-right: 5%;
+      background-color: whitesmoke;
+      color:black;
+  }
+  .progress-text{
+      font-size: 20px;
+      height: 20px;
+  }
+
+.row{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+  .card{
+      box-shadow:2px 4px 8px 2px black;
+      padding-left: 2%;
+      padding-right: 1%;
+      padding-bottom: 5%;
+      border-radius: 5px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+
+       
+  }
+  .card-edu{
+    box-shadow:2px 4px 8px 2px black;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: chartreuse;
+  }
+ .service-cards{
+     padding-left: 9%;
+     padding-right: 9%;
+     margin-left: 100px;
+     margin-bottom: 10px;
+     background-color: cornflowerblue;
+      
+  }
+  .image{
+      padding: 25px 5px 5px 5px;
+      width: 300px;
+      height: 300px;
+      
+  }
+  .list{
+      padding-top: 2%;
+  }
+  .container-contact{
+      padding-left: 50%;
+      padding-top: 5%;
+      text-align: center;
+      border-radius: 5px;
+
+  }
+  .heading-contacts{
+      text-align: center;
+      padding-top: 5%;
+  }
+  .row-heading{
+      padding-right: 50%;
+      padding-left: 40%;
+  }
+  .form-control{
+      width: 800px;
+  }
+  .contacts{
+      padding-bottom: 5%;
+      background-color: yellow;
+  }
+  .row-contacts{
+      padding-top: 10%;
+  }
+  .footer{
+      border-radius: 5px;
+      border-color: black;
+      padding-top: 5%;
+      box-shadow:2px 4px 8px 2px black;
+  }
+  .vg-footer {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 50px 0;
+    background-color: #171925;
+    color: #9FA2AB;
+  }
+  .det{
+      padding-left: 10%;
+  }
+  .card-custom{
+      padding-left: 10%;
+
+  }
